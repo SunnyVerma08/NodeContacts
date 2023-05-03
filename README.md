@@ -2,7 +2,7 @@
 
 A feature-rich 🚀 RESTful API for managing contacts, built using Node.js, Express.js, MongoDB, and JWT for authentication. The API supports user registration, login, CRUD operations for contacts, and user-based access control.
 
-## 📚 Table of Contents
+## Table of Contents 
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -10,14 +10,14 @@ A feature-rich 🚀 RESTful API for managing contacts, built using Node.js, Expr
 - [Code Structure](#code-structure)
 - [Testing with Postman](#testing-with-postman)
 
-## 📋 Prerequisites
+## Prerequisites 
 
 Ensure you have the following installed:
 
 - Node.js (v14.0 or higher)
 - MongoDB (local or remote)
 
-## ⚙️ Installation
+## Installation 
 
 1. Clone the repository
 
@@ -52,7 +52,7 @@ MONGODB_URI=your_mongodb_connection_string
 npm run dev
 ```
 
-🔗 API Endpoints
+## API Endpoints 
 
 - Register a user: `POST /api/users/register`
 - Login a user: `POST /api/users/login`
@@ -63,7 +63,7 @@ npm run dev
 - Update a contact by ID: `PUT /api/contacts/:id`
 - Delete a contact by ID: `DELETE /api/contacts/:id`
 
-## 📁 Code Structure
+## Code Structure 
 
 - `server.js`: Main server entry point
 - `config/dbConnection.js`: Database connection setup
@@ -75,6 +75,6 @@ npm run dev
 - `package.json`: Lists project dependencies and metadata
 - `nodeContacts.postman_collection.json`: Postman collection for testing API endpoints
 
-## 🚀 Testing with Postman
+## Testing with Postman 
 
 To test the API endpoints, import the `nodeContacts.postman_collection.json` file included in the repository into Postman. This file contains a pre-configured collection of requests for all available endpoints.
